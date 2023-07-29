@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
 }
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 46px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  width: 1180px;
+  height: 704.01px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.questions {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 50px;
+
+  width: 567px;
+  height: 704.01px;
+}
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  /* Text/txt-primary */
+
+  color: #000000;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+
+  width: 567px;
+  height: 626.01px;
+}
+.header {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  cursor: pointer;
+
+  padding: 5px;
+  min-height: 60px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(190, 190, 190);
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+  display: flex;
+  align-items: center;
+
+  /* Text/txt-primary */
+
+  color: #000000;
+}
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+  /* or 22px */
+
+  /* Text/txt-secondary */
+
+  color: rgba(60, 60, 67, 0.85);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+  font-size: large;
+  color: rgb(0, 125, 254);
 }
