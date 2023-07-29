@@ -1,8 +1,8 @@
 export const items = [
   {
     id: "l2kj5",
-    label: "Apa itu channel mister dacoding channel?",
-    text: "Mister dacoding channel adalah channel yang mengajarkan tutorial programming kepada masyarakat indonesia dengan gratis di youtube, dengan content yang insyaallah menarik dan dapat menjadi pelopor perkembangan IT di indonesia",
+    label: "Apa itu channel Ranggo Belajar channel?",
+    text: "Ranggo Belajar channel adalah channel yang mengajarkan tutorial programming kepada masyarakat indonesia dengan gratis di youtube, dengan content yang insyaallah menarik dan dapat menjadi pelopor perkembangan IT di indonesia",
   },
   {
     id: "lk2j35lkj",
@@ -27,7 +27,7 @@ export const items = [
   },
   {
     id: "nmhcj9",
-    label: "Apa harapan mister dacoding kedepan?",
-    text: "Harapannya adalah mister dacoding channel bisa menjadi pelopor berkembangnya skill dan karir setiap orang yang ingin belajar pemograman secara otodidak tanpa bayaran apapun",
+    label: "Apa harapan Ranggo Belajar kedepan?",
+    text: "Harapannya adalah Ranggo Belajar channel bisa menjadi pelopor berkembangnya skill dan karir setiap orang yang ingin belajar pemograman secara otodidak tanpa bayaran apapun",
   },
 ];
